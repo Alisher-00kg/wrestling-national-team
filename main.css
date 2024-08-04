@@ -1,0 +1,134 @@
+h1 {
+  text-align: center;
+  color: orange;
+  background-color: red;
+  margin-top: -8px;
+}
+body {
+  background-image: url("https://tinyurl.com/ye252uwu");
+  background-attachment: fixed;
+  background-position: center;
+  background-size: cover;
+}
+
+header nav {
+  display: table;
+  border: 2px solid black;
+  background-color: red;
+  width: 100%;
+  height: 30px;
+  border-radius: 10px;
+  margin-top: -22px;
+}
+header nav a {
+  display: table-cell;
+  text-align: center;
+  text-decoration: none;
+}
+a:link {
+  color: lawngreen;
+}
+
+a:visited {
+  color: white;
+  text-decoration: none;
+}
+a:hover {
+  color: yellow;
+  text-decoration: none;
+}
+button:active {
+  color: chartreuse;
+  background-color: darkturquoise;
+  width: 90px;
+}
+button {
+  background-color: red;
+  color: orange;
+}
+img {
+  box-sizing: content-box;
+  border-radius: 10px;
+  border: 2px solid red;
+  margin-left: 50%;
+}
+.s8 > li::marker {
+  content: "🤼‍♂️";
+}
+.eki {
+  color: orange;
+  margin-top: -400px;
+  text-align: left;
+}
+input::placeholder {
+  background-color: orange;
+}
+.s8 > li:visited {
+  color: white;
+  text-decoration: none;
+}
+.s8 > li:hover {
+  color: yellow;
+  text-decoration: none;
+  background-color: cornflowerblue;
+}
+div a {
+  text-decoration: none;
+}
+section img {
+  box-sizing: content-box;
+  border-radius: 10px;
+  border: 2px solid red;
+  margin-left: -5px;
+}
+p {
+  color: orange;
+  background-color: black;
+}
+p::selection {
+  color: black;
+  background-color: deepskyblue;
+}
+p::first-line {
+  color: forestgreen;
+  text-decoration: overline;
+}
+#besh:hover {
+  color: chartreuse;
+  background-color: crimson;
+  text-align: center;
+  border: 1px solid black;
+  border-radius: 10px;
+}
+p::first-letter {
+  color: chartreuse;
+  text-decoration: underline;
+}
+#f8::after {
+  content: "196 очков";
+}
+ol > li {
+  color: yellow;
+  background-color: rgb(255, 64, 0);
+  border: 1px;
+  width: 50%;
+}
+#f9::before {
+  content: "Кыргызстан";
+}
+#f8:first-child {
+  color: skyblue;
+  text-decoration: line-through;
+}
+
+ol > li:nth-child(11) {
+  color: cornsilk;
+  text-decoration: underline;
+  background-color: green;
+}
+footer > h1 {
+  width: 100%;
+  height: 80px;
+  border: 1px solid black;
+  border-radius: 10px;
+}
